@@ -1,0 +1,26 @@
+//Ver el nombre del repositorio remoto
+git remote
+
+
+
+//Mas detalles acerca de git remote
+git remote -v
+
+//fetch: Nos permite buscar/obtener los cambios que se han realizado en el repositorio remoto.
+//push: Nos permite enviar al repositorio remoto nuestros cambios.
+
+
+
+//Ocultar correo en GitHub
+GitHub -> Settings -> Emails -> Primary email address -> numeros+correo@users.noreplay.github.com
+Nota: Se recomienda usar este email para no quedar expuesto el default
+
+
+
+//Enviar cambios a GitHub (Repositorio remoto)
+git push origin main
+
+
+
+//Descargar contenido de un repositorio remoto para actualizar y que tengan la misma información
+git pull origin main
