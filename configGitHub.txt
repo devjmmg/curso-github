@@ -24,3 +24,18 @@ git push origin main
 
 //Descargar contenido de un repositorio remoto para actualizar y que tengan la misma información
 git pull origin main
+
+
+
+//Git pull vs Git fetch
+//git fetch origin rama verifica los cambios que se van a realizar 
+//git pull origin rama verifica los cambios y actualiza automaticamente (merge)
+
+
+
+//Para cambiarnos a la rama remota 
+git checkout origin/main
+
+
+
+//END
