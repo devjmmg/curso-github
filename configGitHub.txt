@@ -97,4 +97,13 @@ git push origin funcion-nueva(funcion-nueva es la rama nueva que se creo)
 
 
 
+//Mostrar todas las ramas tanto locales como remotas
+git branch -a
+
+
+
+//Eliminar rama remota desde linea de comando
+git push origin -d <NombreDeLaRama>
+
+
 //END
