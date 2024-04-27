@@ -38,4 +38,63 @@ git checkout origin/main
 
 
 
+//Bifurcar un repositorio
+//1.- Buscas el repositorio
+//2.- En la parte superior derecha aparecera el botón Fork
+//3.- Colocamos el nombre del repositorio y la descripción
+//4.- Create Fork
+
+
+
+//Clonar un repositorio bifurcado
+//1.- Copiar la dirección URL del repositorio a clonar
+git clone <URL>
+
+
+
+//pull request
+//1.- Una vez que se haya clonado el repositorio
+//2.- Se agrega el área de preparación (git add .)
+//3.- Se hace el commit
+//4.- luego que ya se haya hecho el commit y se quiera mandar la solicitud al respositorio original 
+git push origin main
+//5.- En GitHub donde esta el respositorio damos clic en el icono contribuir (contribute) 
+//6.- Damos clic en "Open pull request" para mandar una solicitud al dueño del repositorio y acepte los cambios
+//7.- Se agrega el titulo y cuerpo especificando los cambios que se hicieron
+//8.- Po ultimo dar clic en Create pull request
+
+
+
+//Bifurcar
+//1.- Primero se hace una bifurcación del repositorio al que se quiere contribuir
+//2.- Se clona el nuevo repositorio bifurcado
+//3.- Despues se cre una nueva rama nueva 
+git checkout -b funcion-nueva
+//4.- Se modifica el archivo bifurcado pero en otra rama
+//Se agrega al área de preparación
+git add .
+//Se crea el commit
+git commit
+//Por utlimo se envia la rama a GitHub
+git push origin funcion-nueva(funcion-nueva es la rama nueva que se creo)
+//Luego ya se podra hacer el pull request, de esta forma no se modificael main
+
+
+
+//Actualizar repositorio bifurcado
+//1.- Dar clic en Sync fork
+//2.- Dar clic en Update branch
+
+
+
+//Se recomienda dejar la rama main intacta
+
+
+
+//Issues en GitHub
+//Los issues son solicitudes que se mandan al dueño de repositorio con el fin de arreglar 
+//cualquier bug, error, vulnerabilidad de seguridad y no programarlo inncesariamente.
+
+
+
 //END
